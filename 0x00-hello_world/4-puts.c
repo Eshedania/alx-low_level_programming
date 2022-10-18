@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-/*
- * print string
+/**
+ * main - Entry point
  *
  *
- *return 0*/
+ *Return: Always 0 (Success)
+ */
 
-int main(void){
+int main(void)
+{
 
-	char name[51] = "Programming is like building a multilingual puzzle";
-	
+	char name[52] = "\"Programming is like building a multilingual puzzle";
 
 	puts(name);
 
-	return 0;
-
+	return (0);
 }
